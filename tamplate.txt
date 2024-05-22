@@ -1,0 +1,37 @@
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 15px 20px; */
+  .card {
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 15px;
+    .img-wrapper {
+      width: 200px;
+      height: 200px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
+
+<div class="card">
+            <div class="img-wrapper">
+              <img src="./src/1.png" alt="1" srcset="" />
+            </div>
+            <h3>Test3</h3>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./src/1.png" alt="1" srcset="" />
+            </div>
+            <h3>Test3</h3>
+          </div>
