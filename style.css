@@ -50,8 +50,18 @@ main {
   background-size: cover;
 }
 
+@media screen and (min-width: 760px) {
+  .col {
+    align-items: stretch;
+    display: flex;
+    width: 25% !important;
+  }
+}
+
 .col:first-child,
-.col:nth-child(2) {
+.col:nth-child(2),
+.col:nth-child(3),
+.col:nth-child(4) {
   margin-top: 5.5rem !important;
 }
 
@@ -98,6 +108,11 @@ main {
   }
 }
 footer {
+  position: fixed;
+  /* padding: 10px 10px 0px 10px; */
+  bottom: 0;
+  width: 100%;
+
   .navbar {
     border-radius: 15px 15px 0 0;
     box-shadow: 0px -2px 10px 3px #0000003d;
