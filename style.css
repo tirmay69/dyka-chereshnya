@@ -58,11 +58,13 @@ main {
   }
 }
 
-.col:first-child,
-.col:nth-child(2),
-.col:nth-child(3),
-.col:nth-child(4) {
-  margin-top: 5.5rem !important;
+@media screen and (max-width: 761px) {
+  .col:first-child,
+  .col:nth-child(2),
+  .col:nth-child(3),
+  .col:nth-child(4) {
+    margin-top: 5.5rem !important;
+  }
 }
 
 @media screen and (max-width: 760px) {
